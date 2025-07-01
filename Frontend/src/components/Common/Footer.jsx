@@ -1,11 +1,12 @@
 import React from "react";
+import { BsTwitterX } from "react-icons/bs";
 import { FiPhoneCall } from "react-icons/fi";
 import { IoLogoInstagram } from "react-icons/io";
 import { TbBrandMeta } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const Footer = () => (
   <footer className="border-t py-12">
-    Footer
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-0">
       <div>
         <h3 className="text-lg text-gray-800 mb-4 ">Newsletter</h3>
@@ -107,7 +108,7 @@ const Footer = () => (
             rel="noopener noreferrer"
             className="hover:text-gray-300"
           >
-            <ReTwitterXLine className="w-6 h-6" />
+            <BsTwitterX className="w-4 h-4" />
           </a>
         </div>
         <p className="text-gray-500">Call Us</p>
